@@ -43,14 +43,18 @@
         top: 0;
         right: 0;
         z-index: -1;
+        object-fit: cover;
     }
 
     .hero h1{
         font-size: 68px;
         color: white;
+        margin-bottom: 35px;
+        text-align: center;
     }
 
     .hero h2{
         color: white;
+        text-align: center;
     }
 </style>

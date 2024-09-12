@@ -3,6 +3,8 @@
     <a href="/services">Services</a>
     <a href="/prices">Prices</a>
     <a href="/process">The Process</a>
+    <a href="/contact">Contact</a>
+    <a href="/about">About</a>
 </div>
 
 <style>
@@ -10,7 +12,7 @@
         display: flex;
         justify-content: flex-end;
         align-items: center;
-        height: 50px;
+        flex-wrap: wrap;
         width: 100vw;
         background: rgba(255, 255, 255, 0.35);
         position: absolute;
@@ -36,7 +38,7 @@
         padding: 5px;
         width: 125px;
         text-align: center;
-        margin: 0 15px;
+        margin: 10px 15px;
         border-radius: 5px;
     }
 
@@ -46,5 +48,21 @@
 
     .menu a:active{
         background: rgba(0, 0, 0, 0.2);
+    }
+
+    @media screen and (max-width: 1000px){
+        .menu{
+            justify-content: space-around;
+        }
+
+        .menu .inletSites{
+            width: 100%;
+        }
+    }
+
+    @media screen and (max-width: 500px){
+        .menu a{
+            margin: 10px 5px;
+        }
     }
 </style>
