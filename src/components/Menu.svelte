@@ -37,9 +37,14 @@
         width: 125px;
         text-align: center;
         margin: 0 15px;
+        border-radius: 5px;
     }
 
     .menu a:hover {
         background: rgba(0, 0, 0, 0.1);
+    }
+
+    .menu a:active{
+        background: rgba(0, 0, 0, 0.2);
     }
 </style>

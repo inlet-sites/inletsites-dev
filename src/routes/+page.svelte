@@ -2,6 +2,7 @@
     import "../global.css";
 
     import Menu from "../components/Menu.svelte";
+    import Services from "./Services.svelte";
     import heroImg from "$lib/hero.webp";
 </script>
 
@@ -15,6 +16,8 @@
 
         <h2>Professional Website Services</h2>
     </div>
+
+    <Services/>
 </div>
 
 <style>
