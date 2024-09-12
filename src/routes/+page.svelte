@@ -1,10 +1,13 @@
 <script>
     import "../global.css";
 
+    import Menu from "../components/Menu.svelte";
     import heroImg from "$lib/hero.webp";
 </script>
 
 <div class="container">
+    <Menu/>
+
     <div class="hero">
         <img src={heroImg} alt="Sunrise over Murrells Inlet">
 
