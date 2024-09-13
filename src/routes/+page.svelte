@@ -4,6 +4,7 @@
     import Menu from "../components/Menu.svelte";
     import Services from "./Services.svelte";
     import Prices from "./Prices.svelte";
+    import Process from "./Process.svelte";
     import heroImg from "$lib/hero.webp";
 </script>
 
@@ -21,6 +22,8 @@
     <Services/>
 
     <Prices/>
+
+    <Process/>
 </div>
 
 <style>

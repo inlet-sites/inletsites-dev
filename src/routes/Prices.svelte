@@ -53,6 +53,7 @@
         flex-direction: column;
         align-items: center;
         padding: 35px 0;
+        border-top: 2px solid white;
     }
 
     h1{
