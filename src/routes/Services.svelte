@@ -5,6 +5,8 @@
     import onlineStore from "$lib/onlineStore.webp";
     import customSoftware from "$lib/customSoftware.webp";
     import onlinePayment from "$lib/onlinePayment.webp";
+    import blog from "$lib/blog.webp";
+    import paymentPlan from "$lib/paymentPlan.webp";
 </script>
 
 <div class="container">
@@ -16,9 +18,9 @@
             <p>Website Development</p>
         </a>
 
-        <a href="/services#hosting" class="serviceImage">
-            <img src={hosting} alt="Room of web servers">
-            <p>Website Hosting</p>
+        <a href="/services#blog" class="serviceImage">
+            <img src={blog} alt="Computer on a table with a blog on it">
+            <p>Personal Blog</p>
         </a>
 
         <a href="/services#emailing" class="serviceImage">
@@ -26,19 +28,29 @@
             <p>Email Services</p>
         </a>
 
+        <a href="/services#hosting" class="serviceImage">
+            <img src={hosting} alt="Room of web servers">
+            <p>Website Hosting</p>
+        </a>
+
+        <a href="/services#paymentPlan" class="serviceImage">
+            <img src={paymentPlan} alt="Black and white dollar sign with a shadow">
+            <p>Payment Plans</p>
+        </a>
+
         <a href="/services#store" class="serviceImage">
             <img src={onlineStore} alt="Computer with online shopping">
             <p>Custom online store</p>
         </a>
 
-        <a href="/services#custom" class="serviceImage">
-            <img src={customSoftware} alt="Computer monitors displaying charts and graphs">
-            <p>Custom Business Management Software</p>
-        </a>
-
         <a href="/services#onlinePayment" class="serviceImage">
             <img src={onlinePayment} alt="Credit card sitting on a keyboard">
             <p>Online Payments</p>
+        </a>
+
+        <a href="/services#custom" class="serviceImage">
+            <img src={customSoftware} alt="Computer monitors displaying charts and graphs">
+            <p>Custom Business Management Software</p>
         </a>
     </div>
 </div>
