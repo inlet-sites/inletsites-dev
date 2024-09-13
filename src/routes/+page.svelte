@@ -3,6 +3,7 @@
 
     import Menu from "../components/Menu.svelte";
     import Services from "./Services.svelte";
+    import Prices from "./Prices.svelte";
     import heroImg from "$lib/hero.webp";
 </script>
 
@@ -18,6 +19,8 @@
     </div>
 
     <Services/>
+
+    <Prices/>
 </div>
 
 <style>
