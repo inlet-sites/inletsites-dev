@@ -2,6 +2,8 @@
     import Menu from "../../components/Menu.svelte";
 </script>
 
+<Menu/>
+
 <div class="container">
     <h1>The Process</h1>
     <p class="top">We understand that there is a lot of jargon around creating websites and other IT stuff, and if you are not familiar with it, then it can be difficult. We are here to take all the pain out of that process for you. We handle all of the technical stuff and just make sure that you get what you need for your business.</p>
