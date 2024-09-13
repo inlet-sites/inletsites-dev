@@ -11,32 +11,32 @@
     <h1>Services</h1>
 
     <div class="images">
-        <a href="/services" class="serviceImage">
+        <a href="/services#siteDevelopment" class="serviceImage">
             <img src={webdev} alt="Image showing web development">
             <p>Website Development</p>
         </a>
 
-        <a href="/services" class="serviceImage">
+        <a href="/services#hosting" class="serviceImage">
             <img src={hosting} alt="Room of web servers">
             <p>Website Hosting</p>
         </a>
 
-        <a href="/services" class="serviceImage">
+        <a href="/services#emailing" class="serviceImage">
             <img src={emailing} alt="Laptop with email on it">
             <p>Email Services</p>
         </a>
 
-        <a href="/services" class="serviceImage">
+        <a href="/services#store" class="serviceImage">
             <img src={onlineStore} alt="Computer with online shopping">
             <p>Custom online store</p>
         </a>
 
-        <a href="/services" class="serviceImage">
+        <a href="/services#custom" class="serviceImage">
             <img src={customSoftware} alt="Computer monitors displaying charts and graphs">
             <p>Custom Business Management Software</p>
         </a>
 
-        <a href="/services" class="serviceImage">
+        <a href="/services#onlinePayment" class="serviceImage">
             <img src={onlinePayment} alt="Credit card sitting on a keyboard">
             <p>Online Payments</p>
         </a>

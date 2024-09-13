@@ -60,11 +60,6 @@
         margin-left: 55px;
     }
 
-    .text p{
-        margin: 15px 0;
-        font-size: 18px;
-    }
-
     .details{
         margin-top: 35px;
         font-size: 26px;
