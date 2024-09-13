@@ -18,29 +18,38 @@
 
     <p>While this sounds very simple, there is a lot that you can do with a static website. You can have many different pages displaying different parts of your business in different ways. A restaurant, for example, may wish to have a menu displaying all of their dishes along with possible options for each dish. An event center may wish to display a calendar containing all of their events.</p>
 
+    <h2 id="domain">Domain Purchasing</h2>
+    <p>In order to host your website online, you need to have a domain. The domain is just the address of your website. For example "inletsites.com". Inlet Sites will assist you in finding/purchasing your domain at no additional cost.</p>
+
+    <p>Domain costs are not covered in development due to the nature of their wildly variable prices, so the cost of the domain is billed to the client. Some can cost hundreds of thousands of dollars! However, usually you can find a good domain that costs under $50.</p>
+
+    <p>The domain also costs money to mantain. It is a yearly cost and usually the same as the price to purchase it.</p>
+
+    <p>You have the option of allowing Inlet Sites to purchase it for you and fully manage it. Or you can purchase it yourself and maintain it. Both options are free, but allowing Inlet Sites to manage it simplifies things. If purchased by Inlet Sites, you may request transfer to yourself at any time.</p>
+
     <h2 id="blog">Blog</h2>
     <p>A blog is an additional service that can be added on top of your website. There are two different options. Using the Inlet Sites portal to login/create your blogs, or creating a custom portal on your own website to create your blog posts.</p>
 
     <p>Any blogs that you create will always remain your property. If you decide to leave Inlet Sites, then we will provide all of the data for the blogs that you have created. We will never remove any content that you have created unless you specifically request it. In addition, you may request the data for your blogs at any time by simply contacting us.</p>
 
-    <h3>Inlet Sites portal</h3>
+    <h3>-Inlet Sites portal</h3>
     <p>Using the Inlet Sites portal to create and publish your blogs is the simplest way to get started creating a blog to display on your website. There is no additional development cost other than the cost of the extra page(s) to display your posts. Generally, the blog posts on your site will only be charged as a single page, not a page for each blog post you create. You will not be charged the $100 development cost for each blog, it will just be charged as one page. If you need a page to also display all blog posts, then it will be considered two pages.</p>
 
     <p>With this option, if you should choose to take your website to another developer/organization for hosting, the method for creating your posts will not be able to be taken with you. Another developer would have to create a custom solution for their platform.</p>
 
-    <h3>Blog portal on your website</h3>
+    <h3>-Blog portal on your website</h3>
     <p>If you would like to have a portal for creating a blog on your own website then this can also be done. However, this will entail much more work, including a back-end to run on the server specifically for your site as well as setting up a database. Therefore this is a more expensive option. The benefit to this is that if you decide to take your website somewhere else to have another developer/organization host your site, then you can take the entire system with you.</p>
 
     <h2 id="emailing">Emailing</h2>
     <p>When setting up a website, there can be multiple different things that you need in terms of email. You may need automated emailing, for example, to send emails confirmation for different actions, or contact forms. We can also set up email addresses from your domain.</p>
 
-    <h3>Personal email from your domain</h3>
+    <h3>-Personal email from your domain</h3>
     <p>If you have your own domain and would like to create an email address for yourself or others, then we can set that up for you. For example, if you own "my-business.com", we can create an email address: "your-name@my-business.com".</p>
 
-    <h3>Automated emailing</h3>
+    <h3>-Automated emailing</h3>
     <p>Sometimes you may need automated emailing set up for your site. We can create this for whatever you need, whether it is a contact form on your site, a confirmation email for signing up for a mailing list, or anything else that you might need.</p>
 
-    <h3>Email lists</h3>
+    <h3>-Email lists</h3>
     <p>If you would like to maintain a mailing list to send out emails, automated or otherwise, then this can easily be created for you to send out as many emails you need to as many people as you need.</p>
 
     <h2 id="hosting">Website Hosting</h2>
@@ -81,7 +90,7 @@
     }
 
     h3{
-        font-size: 28px;
+        font-size: 25px;
         margin-top: 25px;
     }
 

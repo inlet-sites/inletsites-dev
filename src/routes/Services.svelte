@@ -7,6 +7,7 @@
     import onlinePayment from "$lib/onlinePayment.webp";
     import blog from "$lib/blog.webp";
     import paymentPlan from "$lib/paymentPlan.webp";
+    import url from "$lib/url.webp";
 </script>
 
 <div class="container">
@@ -14,8 +15,13 @@
 
     <div class="images">
         <a href="/services#siteDevelopment" class="serviceImage">
-            <img src={webdev} alt="Image showing web development">
+            <img src={webdev} alt="Web development">
             <p>Website Development</p>
+        </a>
+
+        <a href="/services#domain" class="serviceImage">
+            <img src={url} alt="URL">
+            <p>Domain Purchasing</p>
         </a>
 
         <a href="/services#blog" class="serviceImage">
