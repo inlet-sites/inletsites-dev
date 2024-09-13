@@ -65,7 +65,6 @@
 
 <style>
     .container{
-        margin-top: 75px;
         width: 90%;
         margin: 75px auto;
     }
