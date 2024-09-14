@@ -6,15 +6,16 @@
     import Prices from "./Prices.svelte";
     import Process from "./Process.svelte";
     import heroImg from "$lib/hero.webp";
+    import logoWithText from "$lib/logoWithText.png";
 </script>
 
 <div class="container">
     <Menu/>
 
     <div class="hero">
-        <img src={heroImg} alt="Sunrise over Murrells Inlet">
+        <img class="heroImage" src={heroImg} alt="Sunrise over Murrells Inlet">
 
-        <h1>Inlet Sites</h1>
+        <img class="heroLogo" src={logoWithText} alt="Inlet Sites Logo">
 
         <h2>Professional Website Services</h2>
     </div>
@@ -42,7 +43,7 @@
         position: relative;
     }
 
-    .hero img{
+    .heroImage{
         width: 100%;
         height: 100%;
         position: absolute;
@@ -50,6 +51,11 @@
         right: 0;
         z-index: -1;
         object-fit: cover;
+    }
+
+    .heroLogo{
+        width: 550px;
+        margin-bottom: 35px;
     }
 
     .hero h1{

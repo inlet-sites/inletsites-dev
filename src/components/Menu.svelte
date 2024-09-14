@@ -1,5 +1,7 @@
 <script>
-    let displayMenu = false;
+    import logoWithText from "$lib/logoWithText.png";
+
+    let displayMenu = true;
 
     const toggleMenu = ()=>{
         displayMenu = !displayMenu;
@@ -24,7 +26,9 @@
 
 {#if displayMenu}
     <div class="menu">
-        <a class="inletSites" href="/">Inlet Sites</a>
+        <a class="inletSites" href="/">
+            <img src={logoWithText} alt="Inlet Sites logo">
+        </a>
         <a href="/services">Services</a>
         <a href="/prices">Prices</a>
         <a href="/process">The Process</a>
@@ -59,17 +63,22 @@
         position: absolute;
         top: 0;
         left: 0;
-        padding: 0 35px;
+        padding-right: 35px;
         z-index: 2;
     }
 
     .menu .inletSites{
-        margin-right: auto;
         background: none;
+        padding: 0;
+        margin: 5px auto 5px 15px;
     }
 
     .menu .inletSites:hover{
         background: none;
+    }
+
+    .menu .inletSites img{
+        height: 50px;
     }
 
     .menu a{
@@ -121,3 +130,4 @@
         }
     }
 </style>
+
