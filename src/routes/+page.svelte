@@ -5,8 +5,16 @@
     import Services from "./Services.svelte";
     import Prices from "./Prices.svelte";
     import Process from "./Process.svelte";
-    import heroImg from "$lib/hero.webp";
+    import heroOne from "$lib/hero.webp";
+    import heroTwo from "$lib/heroTwo.webp";
     import logoWithText from "$lib/logoWithText.png";
+
+    let heroImg;
+    const rand = Math.floor(Math.random() * 2);
+    switch(rand){
+        case 0: heroImg = heroOne; break;
+        case 1: heroImg = heroTwo; break;
+    }
 </script>
 
 <div class="container">
@@ -60,7 +68,7 @@
 
     .hero h1{
         font-size: 68px;
-        color: white;
+        color: #041e42;
         margin-bottom: 35px;
         text-align: center;
     }

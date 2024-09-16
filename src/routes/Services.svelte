@@ -66,7 +66,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        color: white;
+        color: #041e42;
         padding: 35px 0;
     }
 
