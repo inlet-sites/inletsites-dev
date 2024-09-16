@@ -1,7 +1,9 @@
 <script>
     import logoWithText from "$lib/logoWithText.png";
+    import logoWhiteText from "$lib/logoWhiteText.png";
 
-    let displayMenu = true;
+    let menu;
+    let displayMenu = false;
 
     const toggleMenu = ()=>{
         displayMenu = !displayMenu;
@@ -9,32 +11,31 @@
 </script>
 
 <button class="openMenu" on:click={toggleMenu}>
-    <svg width="24px" height="24px" stroke-width="1.5" viewBox="0 0 24 24" fill="none" color="#000000">
-        <path d="M3 5H21" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-        <path d="M3 12H21" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-        <path d="M3 19H21" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <svg width="50px" height="50px" stroke-width="1.5" viewBox="0 0 24 24" fill="none" color="#000000">
+        <path d="M3 5H21" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M3 12H21" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M3 19H21" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
     </svg>
 </button>
 
-{#if displayMenu}
+<div class="menu" bind:this={menu} class:display={displayMenu}>
     <button class="closeMenu" on:click={toggleMenu}>
-        <svg width="24px" height="24px" stroke-width="1.5" viewBox="0 0 24 24" fill="none" color="#000000">
+        <svg width="50px" height="50px" stroke-width="1.5" viewBox="0 0 24 24" fill="none" color="#000000">
             <path d="M6.75827 17.2426L12.0009 12M17.2435 6.75736L12.0009 12M12.0009 12L6.75827 6.75736M12.0009 12L17.2435 17.2426" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
         </svg>
     </button>
-{/if}
 
-{#if displayMenu}
-    <div class="menu">
-        <a class="inletSites" href="/">
-            <img src={logoWithText} alt="Inlet Sites logo">
-        </a>
-        <a href="/services">Services</a>
-        <a href="/prices">Prices</a>
-        <a href="/process">The Process</a>
-        <a href="/contact">Contact</a>
-    </div>
-{/if}
+    <a class="inletSites blackLogo" href="/">
+        <img src={logoWithText} alt="Inlet Sites logo">
+    </a>
+    <a class="inletSites whiteLogo" href="/">
+        <img src={logoWhiteText} alt="Inlet Sites logo">
+    </a>
+    <a href="/services">Services</a>
+    <a href="/prices">Prices</a>
+    <a href="/process">The Process</a>
+    <a href="/contact">Contact</a>
+</div>
 
 <style>
     .openMenu{
@@ -48,8 +49,8 @@
     .closeMenu{
         display: none;
         position: absolute;
-        top: 35px;
-        right: 35px;
+        top: 15px;
+        right: 15px;
         z-index: 4;
     }
 
@@ -81,6 +82,10 @@
         height: 50px;
     }
 
+    .whiteLogo{
+        display: none;
+    }
+
     .menu a{
         color: black;
         text-decoration: none;
@@ -102,8 +107,10 @@
 
     @media screen and (max-width: 900px){
         .menu{
+            display: none;
             flex-direction: column;
             justify-content: space-around;
+            align-items: center;
             position: fixed;
             top: 0;
             left: 0;
@@ -111,10 +118,23 @@
             width: 100vw;
             background: #041e42;
             z-index: 3;
+            padding: 0;
+        }
+
+        .blackLogo{
+            display: none;
+        }
+
+        .whiteLogo{
+            display: block;
+        }
+
+        .menu.display{
+            display: flex;
         }
 
         .menu .inletSites{
-            text-align: left;
+            margin-top: 35px;
         }
 
         .menu a{
@@ -127,6 +147,8 @@
 
         .openMenu, .closeMenu{
             display: flex;
+            background: none;
+            border: none;
         }
     }
 </style>

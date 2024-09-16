@@ -66,7 +66,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        color: #041e42;
+        color: rgb(200, 200, 200);
         padding: 35px 0;
     }
 
@@ -102,7 +102,7 @@
 
     .serviceImage p{
         font-size: 28px;
-        color: white;
+        color: rgb(200, 200, 200);
         z-index: 2;
         text-align: center;
     }
