@@ -63,18 +63,17 @@
 
     .heroLogo{
         width: 550px;
-        margin-bottom: 35px;
-    }
-
-    .hero h1{
-        font-size: 68px;
-        color: #041e42;
-        margin-bottom: 35px;
-        text-align: center;
+        margin-bottom: 150px;
     }
 
     .hero h2{
         color: white;
         text-align: center;
+    }
+
+    @media screen and (max-width: 700px){
+        .heroLogo{
+            width: 90%;
+        }
     }
 </style>
