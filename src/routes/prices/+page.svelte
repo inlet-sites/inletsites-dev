@@ -71,6 +71,7 @@
     .container{
         margin: 75px auto;
         width: 90%;
+        max-width: 1200px;
     }
 
     h1{
