@@ -26,7 +26,7 @@
     <table>
         <tr>
             <td>Single page</td>
-            <td>$50../month</td>
+            <td>$50.00/month</td>
         </tr>
         <tr>
             <td>Additional pages</td>
@@ -59,7 +59,7 @@
         </tr>
         <tr>
             <td>Automated emailing</td>
-            <td>$0.05/email</td>
+            <td>$0.01/email</td>
         </tr>
     </table>
 

@@ -9,7 +9,7 @@
 
             <li>Payment plans available for development costs so long as hosting is done through Inlet Sites</li>
 
-            <li>Hosting prices as similar to development prices. Displayed is an estimate and an exact quote is provided prior to services rendered.</li>
+            <li>Hosting prices are similar to development prices. Displayed is an estimate and an exact quote is provided prior to services rendered.</li>
 
             <li>Larger sites that include back end services or databases will be negotiated based on the requirments of the site.</li>
         </ul>

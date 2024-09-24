@@ -69,7 +69,7 @@
     <p>If you need to accept payments on your website, then we can create a way to do this on your site. Whether this is part of an online store, or you want to offer a way for customers/clients to make payments on your site. We use Stripe to process payments, which incurs its own costs as well.</p>
 
     <h2 id="custom">Custom Business Software</h2>
-    <p>Some businesses require more extensive websites with custom software. Examples of this could be a business that needs inventory management, a restaurant that wants seat management, or a restaurant that wants online ordering/management/payment. We can create all of this right on your own website for you. We know that each business is different and that is why we will personally work with to create exactly what you need. Due to the differeing requirements for each business, we will assess costs and exactly what you need based on your requirements. Just set up a free consultation to discuss more about this.</p>
+    <p>Some businesses require more extensive websites with custom software. Examples of this could be a business that needs inventory management, a restaurant that wants seat management, or a restaurant that wants online ordering/management/payment. We can create all of this right on your own website for you. We know that each business is different and that is why we will personally work with you to create exactly what you need. Due to the differeing requirements for each business, we will assess costs and exactly what you need based on your requirements. Just set up a free consultation to discuss more about this.</p>
 </div>
 
 <style>
