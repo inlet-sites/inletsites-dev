@@ -34,6 +34,7 @@
     <a href="/services">Services</a>
     <a href="/prices">Prices</a>
     <a href="/process">The Process</a>
+    <a href="/agreement">Agreement</a>
     <a href="/contact">Contact</a>
 </div>
 
@@ -105,7 +106,7 @@
         background: rgba(0, 0, 0, 0.2);
     }
 
-    @media screen and (max-width: 900px){
+    @media screen and (max-width: 1050px){
         .menu{
             display: none;
             flex-direction: column;
