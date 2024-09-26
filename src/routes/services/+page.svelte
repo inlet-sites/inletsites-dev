@@ -43,6 +43,9 @@
     <h2 id="gallery">Photo Gallery</h2>
     <p>Displaying images of your business on your website is a great way to give customers/clients a good feel for your business and to see what you have to offer. We can create a page on your website to display all of your photos on your own website. You can update add or remove any pictures that you want, at any time. Much like blogs, you can use the Inlet Sites portal to manage all of your images for a set price. Or, alternatively, you can have a custom portal for editing this built into your website for an extra cost.</p>
 
+    <p>Due to the added cost of storage and serving of large numbers of images there is a monthly fee depending on the number of photos that you have in your gallery.</p>
+
+    <p>To optimize the website loading speed and save storage space, the images that you upload will be optimized (compressed and likely shrunk in size). Large image sizes can greatly affect the loading speed of your site. Due to this, you should always keep the originals and not rely on Inlet Sites for image storage. If you need suggestions for online storage, we are happy to offer our advice and suggestions.</p>
     <h2 id="emailing">Emailing</h2>
     <p>When setting up a website, there can be multiple different things that you need in terms of email. You may need automated emailing, for example, to send emails confirmation for different actions, or contact forms. We can also set up email addresses from your domain.</p>
 

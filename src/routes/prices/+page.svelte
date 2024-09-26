@@ -50,6 +50,38 @@
         </tr>
     </table>
 
+    <h2>Photo Gallery</h2>
+    <p class="note">*Additional service, requires website</p>
+    <table>
+        <tr>
+            <td>Standard gallery using Inlet Sites portal</td>
+            <td>$500.00 development</td>
+        </tr>
+        <tr>
+            <td>Custom photo gallery or portal</td>
+            <td>Negotiated individually</td>
+        </tr>
+    </table>
+
+    <table>
+        <caption>Monthly cost based on number of photos</caption>
+        <tr>
+            <td>0-100</td>
+            <td>$15</td>
+        </tr>
+        <tr>
+            <td>101-500</td>
+            <td>$25</td>
+        </tr>
+        <tr>
+            <td>501-1000</td>
+            <td>$45</td>
+        <tr>
+            <td>1000+</td>
+            <td>$75</td>
+        </tr>
+    </table>
+
     <h2>Email</h2>
     <p class="note">*Additional service, requires website</p>
     <table>
@@ -102,5 +134,9 @@
     .note{
         font-size: 14px;
         margin-bottom: 25px;
+    }
+
+    caption{
+        margin-top: 15px;
     }
 </style>
