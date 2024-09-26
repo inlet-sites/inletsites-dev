@@ -40,6 +40,9 @@
     <h3>-Blog portal on your website</h3>
     <p>If you would like to have a portal for creating a blog on your own website then this can also be done. However, this will entail much more work, including a back-end to run on the server specifically for your site as well as setting up a database. Therefore this is a more expensive option. The benefit to this is that if you decide to take your website somewhere else to have another developer/organization host your site, then you can take the entire system with you.</p>
 
+    <h2 id="gallery">Photo Gallery</h2>
+    <p>Displaying images of your business on your website is a great way to give customers/clients a good feel for your business and to see what you have to offer. We can create a page on your website to display all of your photos on your own website. You can update add or remove any pictures that you want, at any time. Much like blogs, you can use the Inlet Sites portal to manage all of your images for a set price. Or, alternatively, you can have a custom portal for editing this built into your website for an extra cost.</p>
+
     <h2 id="emailing">Emailing</h2>
     <p>When setting up a website, there can be multiple different things that you need in terms of email. You may need automated emailing, for example, to send emails confirmation for different actions, or contact forms. We can also set up email addresses from your domain.</p>
 

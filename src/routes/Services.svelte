@@ -6,6 +6,7 @@
     import customSoftware from "$lib/customSoftware.webp";
     import onlinePayment from "$lib/onlinePayment.webp";
     import blog from "$lib/blog.webp";
+    import gallery from "$lib/gallery.webp";
     import paymentPlan from "$lib/paymentPlan.webp";
     import url from "$lib/url.webp";
 </script>
@@ -27,6 +28,11 @@
         <a href="/services#blog" class="serviceImage">
             <img src={blog} alt="Computer on a table with a blog on it">
             <p>Personal Blog</p>
+        </a>
+
+        <a href="/services#gallery" class="serviceImage">
+            <img src={gallery} alt="Gallery of photos">
+            <p>Photo Gallery</p>
         </a>
 
         <a href="/services#emailing" class="serviceImage">
