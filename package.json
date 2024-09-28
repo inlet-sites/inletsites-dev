@@ -17,6 +17,7 @@
 	"type": "module",
 	"dependencies": {
 		"@sveltejs/adapter-node": "^5.2.2",
-		"express": "^4.21.0"
+		"express": "^4.21.0",
+		"posthog-js": "^1.165.0"
 	}
 }
