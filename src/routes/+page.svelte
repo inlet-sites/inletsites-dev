@@ -5,27 +5,36 @@
     import Services from "./Services.svelte";
     import Prices from "./Prices.svelte";
     import Process from "./Process.svelte";
-    import heroOne from "$lib/hero.webp";
-    import heroTwo from "$lib/heroTwo.webp";
     import logoWithText from "$lib/logoWithText.png";
+    import logoWhiteText from "$lib/logoWhiteText.png";
 
-    let heroImg;
-    const rand = Math.floor(Math.random() * 2);
+    import heroOne from "$lib/landingImages/one.webp";
+    import heroTwo from "$lib/landingImages/two.webp";
+    import heroThree from "$lib/landingImages/three.webp";
+    import heroFour from "$lib/landingImages/four.webp";
+    import heroFive from "$lib/landingImages/five.webp";
+
+    let heroImg, heroClass;
+    let hero = logoWithText;
+    let rand = Math.floor(Math.random() * 5);
     switch(rand){
         case 0: heroImg = heroOne; break;
         case 1: heroImg = heroTwo; break;
+        case 2: heroImg = heroThree; break;
+        case 3: heroImg = heroFour; break;
+        case 4: heroImg = heroFive; hero = logoWhiteText; break;
     }
 </script>
 
 <div class="container">
     <Menu/>
 
-    <div class="hero">
+    <div class="hero {heroClass}">
         <img class="heroImage" src={heroImg} alt="Sunrise over Murrells Inlet">
 
-        <img class="heroLogo" src={logoWithText} alt="Inlet Sites Logo">
+        <img class="heroLogo" src={hero} alt="Inlet Sites Logo">
 
-        <h2>Professional Website Services</h2>
+        <h2>Custom Websites and Software, Built Locally, Just For You</h2>
     </div>
 
     <Services/>
@@ -69,6 +78,9 @@
     .hero h2{
         color: white;
         text-align: center;
+        background: rgba(0, 0, 0, 0.66);
+        padding: 15px;
+        border-radius: 15px;
     }
 
     @media screen and (max-width: 700px){
