@@ -36,6 +36,7 @@
     <a href="/process">The Process</a>
     <a href="/agreement">Agreement</a>
     <a href="/contact">Contact</a>
+    <a href="/our-work">Our Work</a>
 </div>
 
 <style>
@@ -73,6 +74,7 @@
         background: none;
         padding: 0;
         margin: 5px auto 5px 15px;
+        width: initial;
     }
 
     .menu .inletSites:hover{
