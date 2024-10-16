@@ -7,17 +7,22 @@
 
 <div class="container">
     <h1>Prices</h1>
-    <p class="firstNote">Prices displayed here are a guide to the general prices. Total cost is created on an individual, case by case basis.</p>    
+    <p class="firstNote">Prices displayed here are a guide to the general prices. Total cost is created on an individual, case-by-case basis.</p>    
     
-    <h2>Static Site Development</h2>
+    <h2 id="businessCard"><a href="/services#businessCard">Business-Card Website</a></h2>
+    <p class="note">*Development costs will be waived for the remainder of 2024 (up to 5 pages)</p>
     <table>
         <tr>
-            <td>Single Page</td>
-            <td>$500.00</td>
+            <td>Up to 5 pages</td>
+            <td>$350.00</td>
         </tr>
         <tr>
             <td>Additional pages</td>
-            <td>$100.00/page</td>
+            <td>$50.00/page</td>
+        </tr>
+        <tr>
+            <td>Changes (sites already hosted w/ Inlet Sites)</td>
+            <td>1 free, then $25</td>
         </tr>
     </table>
 
@@ -25,12 +30,12 @@
     <p class="note">*Hosting of custom sites or online stores will be larger and individually negotiated</p>
     <table>
         <tr>
-            <td>Single page</td>
+            <td>Business Card Website</td>
             <td>$50.00/month</td>
         </tr>
         <tr>
-            <td>Additional pages</td>
-            <td>$5.00/page/month</td>
+            <td>Larger sites</td>
+            <td>Individually negotiated</td>
         </tr>
     </table>
 
@@ -117,8 +122,13 @@
     }
 
     h2{
+        margin: 35px 0 15px 0;
         margin-top: 35px;
         font-size: 38px;
+    }
+
+    h2 a{
+        color: rgb(200, 200, 200);
     }
 
     table{

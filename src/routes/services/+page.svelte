@@ -13,10 +13,14 @@
 
     <p>At Inlet Sites we offer any web site services that you need from a simple one-page website up to custom software for businesses. This page will attempt to break down some of the services we offer and explain them in a non-technical way so that anybody can understand. Of course if you have any questions then we encourage you to reach out to us either to answer a quick question or to set up a free consultation.</p>
 
-    <h2 id="siteDevelopment">Static Site Development</h2>
-    <p>A static website is simply one that doesn't involve any data and is displayed the same for everybody that visits. Many companies just want a website to link to that has information about their business and their services/products. For example, this site that you are viewing now is a static website. Each page will be the same every time that you visit it and just displays information about Inlet Sites.</p>
+    <h2 id="businessCard">Business-Card Website</h2>
+    <p> A business-card website is a simple website that displays the services and other information about the business. A website like this can display any information that is wanted and be customized to look exactly as needed, with any information necessary.</p> 
 
-    <p>While this sounds very simple, there is a lot that you can do with a static website. You can have many different pages displaying different parts of your business in different ways. A restaurant, for example, may wish to have a menu displaying all of their dishes along with possible options for each dish. An event center may wish to display a calendar containing all of their events.</p>
+    <p>The difference between this and a custom solution, or an online store, is that a business-card website does not change, every user will view the exact same information. Alternatively, a dynamic/custom site, or online store will include data that can change, such as items in a store that can be changed/updated or user information.</p>
+
+    <p>While business-card websites are static, they can, of course, be updated. If you would like to make changes to your website you may do so at any time. Any time that you want to change some information on your website, we are happy to do that for you. See <a href="/prices#businessCard">prices</a> for more information.</p>
+
+    <p>As with all sites created by us, the website will work on desktop computers, phones, and everything in-between. We build all sites to work on all devices.</p>
 
     <h2 id="domain">Domain Purchasing</h2>
     <p>In order to host your website online, you need to have a domain. The domain is just the address of your website. For example "inletsites.com". Inlet Sites will assist you in finding/purchasing your domain at no additional cost.</p>
