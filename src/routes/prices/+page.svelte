@@ -14,7 +14,7 @@
     <table>
         <tr>
             <td>Up to 5 pages</td>
-            <td>$350.00</td>
+            <td>$250.00</td>
         </tr>
         <tr>
             <td>Additional pages</td>
@@ -22,7 +22,7 @@
         </tr>
         <tr>
             <td>Changes (sites already hosted w/ Inlet Sites)</td>
-            <td>1 free, then $25</td>
+            <td>3 free, then $25</td>
         </tr>
     </table>
 
@@ -31,7 +31,7 @@
     <table>
         <tr>
             <td>Business Card Website</td>
-            <td>$50.00/month</td>
+            <td>$20.00/month</td>
         </tr>
         <tr>
             <td>Larger sites</td>
