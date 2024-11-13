@@ -34,7 +34,6 @@
     <a href="/services">Services</a>
     <a href="/prices">Prices</a>
     <a href="/process">The Process</a>
-    <a href="/agreement">Agreement</a>
     <a href="/contact">Contact</a>
     <a href="/our-work">Our Work</a>
 </div>
