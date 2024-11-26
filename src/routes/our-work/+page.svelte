@@ -4,6 +4,7 @@
 
     import blacklistAero from "$lib/clients/blacklist-aero.webp";
     import logo from "$lib/favicon.png";
+    import utc from "$lib/utc.webp";
 </script>
 
 <Menu/>
@@ -22,6 +23,11 @@
         <a href="https://inlet.shop" class="card">
             <p>Inlet.Shop from Inlet Sites</p>
             <img src={logo} alt="Inlet Sites logo">
+        </a>
+
+        <a href="https://uniqueteakcreations.shop" class="card">
+            <p>Unique Teak Creations</p>
+            <img src={utc} alt="Unique Teak Creations">
         </a>
     </div>
 </div>
@@ -59,11 +65,17 @@
         box-shadow: 0 0 5px white;
         padding: 15px;
         border-radius: 15px;
+        height: 250px;
+        width: 300px; 
     }
 
     a p{
         font-size: 14px;
         margin-bottom: 15px;
+    }
+
+    a img{
+        max-height: 75%;
     }
 
     .sites{
